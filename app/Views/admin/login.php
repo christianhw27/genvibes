@@ -11,7 +11,6 @@
 
         <form class="rounded-[2rem] border border-white/15 bg-white p-7 text-slate-950 shadow-glow" action="<?= url('/admin/login') ?>" method="post">
             <div class="mb-8">
-                <div class="mb-5 grid h-14 w-14 place-items-center rounded-2xl bg-brand text-lg font-black text-white shadow-lg shadow-blue-900/20">GV</div>
                 <p class="text-sm font-black uppercase tracking-normal text-brand">Secure Entry</p>
                 <h2 class="mt-2 text-3xl font-black tracking-normal">Masuk Dashboard</h2>
                 <p class="mt-2 text-sm text-slate-500">Gunakan akun admin untuk mengelola katalog.</p>

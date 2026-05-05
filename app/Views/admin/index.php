@@ -7,7 +7,10 @@
                     <h1 class="mt-2 text-4xl font-black tracking-normal md:text-5xl">Kelola Katalog</h1>
                     <p class="mt-3 max-w-2xl text-white/75">Tambah, edit, atau hapus paket yang tampil di halaman katalog publik.</p>
                 </div>
-                <a class="inline-flex min-h-12 items-center justify-center rounded-2xl bg-white px-5 font-black text-brand shadow-xl shadow-blue-950/20 transition hover:-translate-y-0.5" href="<?= url('/admin/create') ?>">Tambah Paket</a>
+                <div class="flex flex-wrap gap-3">
+                    <a class="inline-flex min-h-12 items-center justify-center rounded-2xl border border-white/20 bg-white/10 px-5 font-black text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15" href="<?= url('/') ?>">Dashboard User</a>
+                    <a class="inline-flex min-h-12 items-center justify-center rounded-2xl bg-white px-5 font-black text-brand shadow-xl shadow-blue-950/20 transition hover:-translate-y-0.5" href="<?= url('/admin/create') ?>">Tambah Paket</a>
+                </div>
             </div>
         </div>
 

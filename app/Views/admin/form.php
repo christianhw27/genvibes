@@ -5,7 +5,10 @@
                 <p class="text-sm font-black uppercase tracking-normal text-brand">Form Paket</p>
                 <h1 class="mt-2 text-4xl font-black tracking-normal text-slate-950"><?= e($title) ?></h1>
             </div>
-            <a class="inline-flex min-h-12 items-center justify-center rounded-2xl border border-blue-100 bg-white px-5 font-black text-brand shadow-sm transition hover:border-brand" href="<?= url('/admin') ?>">Kembali</a>
+            <div class="flex flex-wrap gap-3">
+                <a class="inline-flex min-h-12 items-center justify-center rounded-2xl border border-blue-100 bg-white px-5 font-black text-brand shadow-sm transition hover:border-brand" href="<?= url('/') ?>">Dashboard User</a>
+                <a class="inline-flex min-h-12 items-center justify-center rounded-2xl border border-blue-100 bg-white px-5 font-black text-brand shadow-sm transition hover:border-brand" href="<?= url('/admin') ?>">Kembali</a>
+            </div>
         </div>
 
         <form class="rounded-[2rem] border border-blue-100 bg-white p-6 shadow-xl shadow-blue-950/5" action="<?= $action ?>" method="post">

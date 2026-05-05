@@ -25,7 +25,13 @@
                     <strong class="mt-1 block text-2xl font-black">@genvibes.id</strong>
                     <span class="mt-1 block break-all text-sm font-bold text-slate-500">instagram.com/genvibes.id</span>
                 </span>
-                <span class="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-brand text-xl font-black text-white">IG</span>
+                <span class="instagram-icon-wrap grid h-12 w-12 shrink-0 place-items-center rounded-full bg-brand text-white">
+                    <svg class="instagram-icon h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="2"></rect>
+                        <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"></circle>
+                        <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"></circle>
+                    </svg>
+                </span>
             </a>
         </div>
 
