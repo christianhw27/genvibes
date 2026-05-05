@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Main Program 1 Bulan",
+    "price": "Rp1.000.000",
+    "duration": "1 bulan",
+    "summary": "Paket dasar untuk pengelolaan full marketing selama 1 bulan.",
+    "features": [
+      {
+        "title": "Social Media Management",
+        "included": true,
+        "description": "Memegang full marketing brand selama 1 bulan penuh melalui Instagram, TikTok, dan CP.",
+        "kpi": "5 konten dengan total engagement minimal 50K. Kontrak selama 1 bulan, sudah termasuk biaya ads, talent dari kami."
+      },
+      {
+        "title": "Discount Package",
+        "included": true,
+        "description": "Membantu mengiklankan promo diskon melalui media partner yang bekerja sama.",
+        "kpi": "Papan acrylic dan 2 media partner tergantung slot yang tersedia."
+      },
+      {
+        "title": "Campus & Community Activation",
+        "included": false,
+        "description": "",
+        "kpi": ""
+      },
+      {
+        "title": "KOL System",
+        "included": false,
+        "description": "",
+        "kpi": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Main Program 2 Bulan",
+    "price": "Rp3.000.000",
+    "duration": "2 bulan",
+    "summary": "Paket pengelolaan marketing lebih panjang dengan aktivasi kampus awal.",
+    "features": [
+      {
+        "title": "Social Media Management",
+        "included": true,
+        "description": "Memegang full marketing brand selama 2 bulan penuh melalui Instagram, TikTok, dan CP.",
+        "kpi": "8 konten dengan total engagement minimal 80K. Kontrak selama 2 bulan, sudah termasuk biaya ads, talent dari kami."
+      },
+      {
+        "title": "Discount Package",
+        "included": true,
+        "description": "Membantu mengiklankan promo diskon melalui media partner yang bekerja sama.",
+        "kpi": "Papan acrylic dan 6 media partner tergantung slot yang tersedia."
+      },
+      {
+        "title": "Campus & Community Activation",
+        "included": true,
+        "description": "Membantu brand mencari atau masuk ke event kampus di UNAIR.",
+        "kpi": "Minimal mengikuti 1 kali event kampus skala HIMA/Fakultas seperti bazar, konser, seminar, dan sejenisnya."
+      },
+      {
+        "title": "KOL System",
+        "included": false,
+        "description": "",
+        "kpi": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Main Program 3 Bulan",
+    "price": "Rp5.000.000",
+    "duration": "3 bulan",
+    "summary": "Paket penguatan brand awareness dengan KOL kampus.",
+    "features": [
+      {
+        "title": "Social Media Management",
+        "included": true,
+        "description": "Memegang full marketing brand selama 3 bulan penuh melalui Instagram, TikTok, dan CP.",
+        "kpi": "12 konten dengan total engagement minimal 100K. Kontrak selama 3 bulan, sudah termasuk biaya ads, talent dari kami."
+      },
+      {
+        "title": "Discount Package",
+        "included": true,
+        "description": "Membantu mengiklankan promo diskon melalui media partner yang bekerja sama.",
+        "kpi": "Papan acrylic dan 10 media partner tergantung slot yang tersedia."
+      },
+      {
+        "title": "Campus & Community Activation",
+        "included": false,
+        "description": "",
+        "kpi": ""
+      },
+      {
+        "title": "KOL System",
+        "included": true,
+        "description": "Meningkatkan brand awareness melalui influencer di UNAIR.",
+        "kpi": "1 konten spesial kolaborasi influencer kampus dengan minimal engagement 10K."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Main Program 5 Bulan",
+    "price": "Rp7.000.000",
+    "duration": "5 bulan",
+    "summary": "Paket paling lengkap untuk social media, media partner, event kampus, dan KOL.",
+    "features": [
+      {
+        "title": "Social Media Management",
+        "included": true,
+        "description": "Memegang full marketing brand selama 5 bulan penuh melalui Instagram, TikTok, dan CP.",
+        "kpi": "20 konten dengan total engagement minimal 200K. Kontrak selama 5 bulan, sudah termasuk biaya ads, talent dari kami."
+      },
+      {
+        "title": "Discount Package",
+        "included": true,
+        "description": "Membantu mengiklankan promo diskon melalui media partner yang bekerja sama.",
+        "kpi": "Papan acrylic dan 10 media partner dengan jaminan masuk di salah satu proker besar universitas, tergantung slot yang tersedia."
+      },
+      {
+        "title": "Campus & Community Activation",
+        "included": true,
+        "description": "Membantu brand mencari atau masuk ke event kampus di UNAIR.",
+        "kpi": "Minimal mengikuti 2 kali event kampus skala HIMA/Fakultas seperti bazar, konser, seminar, dan sejenisnya."
+      },
+      {
+        "title": "KOL System",
+        "included": true,
+        "description": "Meningkatkan brand awareness melalui influencer di UNAIR.",
+        "kpi": "3 konten spesial kolaborasi influencer kampus dengan minimal engagement 30K."
+      }
+    ]
+  }
+]
