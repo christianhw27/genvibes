@@ -4,7 +4,7 @@ $featureNames = ['Social Media Management', 'Discount Package', 'Campus & Commun
 
 <section class="relative isolate overflow-hidden bg-brand text-white">
     <div class="absolute inset-0 hero-mesh"></div>
-    <div class="absolute inset-0 premium-grid opacity-16"></div>
+    <div class="absolute inset-0 premium-grid opacity-60"></div>
 
     <div class="relative mx-auto flex min-h-[calc(100vh-76px)] max-w-7xl flex-col justify-between gap-8 px-5 py-8 md:px-10 md:py-10 lg:justify-center lg:gap-7 lg:py-10">
         <div class="flex items-center justify-center">
@@ -37,8 +37,10 @@ $featureNames = ['Social Media Management', 'Discount Package', 'Campus & Commun
     </div>
 </section>
 
-<section id="packages" class="bg-slate-50 px-5 py-16 md:px-10">
-    <div class="mx-auto max-w-7xl">
+<section id="packages" class="relative overflow-hidden bg-slate-50 px-5 py-16 md:px-10">
+    <div class="absolute inset-0 soft-mesh"></div>
+    <div class="absolute inset-0 bg-grid-slate"></div>
+    <div class="relative mx-auto max-w-7xl">
         <div class="mb-8 flex flex-col justify-between gap-5 md:flex-row md:items-end">
             <div>
                 <p class="text-sm font-black uppercase tracking-normal text-brand">Main Program</p>
