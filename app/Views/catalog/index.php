@@ -6,34 +6,33 @@ $featureNames = ['Social Media Management', 'Discount Package', 'Campus & Commun
     <div class="absolute inset-0 hero-mesh"></div>
     <div class="absolute inset-0 premium-grid opacity-60"></div>
 
-    <div class="relative mx-auto flex min-h-[calc(100vh-76px)] max-w-7xl flex-col justify-between gap-8 px-5 py-8 md:px-10 md:py-10 lg:justify-center lg:gap-7 lg:py-10">
+    <div class="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center gap-10 px-5 py-12 md:px-10 md:py-16 lg:gap-12 lg:py-20">
         <div class="flex items-center justify-center">
-            <div class="w-full max-w-[min(88vw,560px)] rounded-[1.5rem] bg-white px-6 py-4 shadow-2xl shadow-blue-950/25 md:rounded-[2rem] md:px-10 md:py-6">
-                <img class="h-[clamp(4.75rem,13vw,7.5rem)] w-full object-contain" src="<?= asset('genvibes-logo.jpg') ?>" alt="Genvibes">
+            <div class="rounded-2xl bg-white px-6 py-3.5 shadow-xl shadow-blue-950/20 md:rounded-[1.5rem] md:px-8 md:py-5">
+                <img class="h-10 w-auto object-contain sm:h-12 md:h-14" src="<?= asset('genvibes-logo.jpg') ?>" alt="Genvibes">
             </div>
         </div>
 
-        <div class="mx-auto max-w-5xl py-6 text-center md:py-10 lg:py-6">
+        <div class="mx-auto max-w-5xl text-center">
             <p class="mb-4 text-xs font-black uppercase tracking-normal text-blue-100 md:mb-5 md:text-sm">Campaign Partnership Proposal</p>
-            <h1 class="text-4xl font-black leading-[.95] tracking-normal sm:text-5xl md:text-7xl lg:text-8xl">
+            <h1 class="text-4xl font-black leading-[1.05] tracking-normal sm:text-5xl md:text-6xl lg:text-8xl">
                 Strategic marketing package.
             </h1>
-            <p class="mx-auto mt-6 max-w-3xl text-base leading-7 text-white/78 md:mt-8 md:text-xl md:leading-8">
+            <p class="mx-auto mt-6 max-w-3xl text-base leading-7 text-white/80 md:mt-8 md:text-xl md:leading-8">
                 Katalog paket social media management, promo diskon, aktivasi kampus, dan KOL yang dirancang untuk presentasi campaign yang lebih jelas, premium, dan mudah dibandingkan.
             </p>
             <div class="mt-8 grid gap-3 sm:flex sm:flex-wrap sm:items-center sm:justify-center sm:gap-4 md:mt-10">
                 <a class="rounded-full bg-white px-8 py-4 text-center font-black text-brand shadow-2xl shadow-blue-950/25 transition hover:-translate-y-0.5" href="#packages">Lihat Paket</a>
                 <a class="rounded-full border border-white/30 bg-white/12 px-8 py-4 text-center font-black text-white shadow-2xl shadow-blue-950/15 backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/18" href="<?= url('/contact') ?>">Contact Us</a>
             </div>
-        </div>
-
-        <div class="mx-auto w-full max-w-sm rounded-[1.5rem] border border-white/18 bg-white/10 p-3 backdrop-blur-xl md:max-w-md md:rounded-[2rem] md:p-4">
-            <div class="rounded-[1.25rem] bg-white p-5 text-center text-brand shadow-xl shadow-blue-950/10 md:rounded-[1.5rem] md:p-6">
-                <b class="block text-4xl font-black md:text-5xl"><?= count($packages) ?></b>
-                <span class="mt-2 block text-sm font-black uppercase tracking-normal text-slate-500">Paket Marketing</span>
+            
+            <div class="mt-10 flex items-center justify-center">
+                <div class="inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/10 py-2 pl-2 pr-5 text-sm font-semibold text-white backdrop-blur-md shadow-xl shadow-blue-950/10">
+                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-brand shadow-md"><?= count($packages) ?></span>
+                    <span>Pilihan Paket Marketing</span>
+                </div>
             </div>
         </div>
-
     </div>
 </section>
 

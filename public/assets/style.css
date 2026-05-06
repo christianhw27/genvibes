@@ -50,7 +50,7 @@ a {
 }
 
 .hero-mesh {
-    background: linear-gradient(135deg, #004aad 0%, #003f96 46%, #002f73 100%);
+    background: #004aad;
     position: relative;
     overflow: hidden;
 }
@@ -59,26 +59,26 @@ a {
 .hero-mesh::after {
     content: "";
     position: absolute;
-    width: clamp(300px, 45vw, 650px);
-    height: clamp(300px, 45vw, 650px);
+    width: clamp(400px, 50vw, 750px);
+    height: clamp(400px, 50vw, 750px);
     border-radius: 50%;
-    filter: blur(80px);
+    filter: blur(100px);
     z-index: 0;
-    animation: floatingOrb 20s ease-in-out infinite;
+    animation: floatingOrb 20s ease-in-out infinite alternate;
 }
 
 .hero-mesh::before {
-    background: rgba(125, 211, 252, 0.4);
-    top: -10%;
-    left: -10%;
+    background: rgba(0, 195, 255, 0.25);
+    top: -5%;
+    left: -5%;
 }
 
 .hero-mesh::after {
-    background: rgba(255, 255, 255, 0.25);
-    bottom: -20%;
-    right: -10%;
+    background: rgba(0, 60, 255, 0.3);
+    bottom: -10%;
+    right: -5%;
     animation-duration: 25s;
-    animation-direction: reverse;
+    animation-direction: alternate-reverse;
 }
 
 .bg-grid-slate {
