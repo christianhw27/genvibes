@@ -1,1 +1,1 @@
-# genvibes
+genvibes.xo.je
